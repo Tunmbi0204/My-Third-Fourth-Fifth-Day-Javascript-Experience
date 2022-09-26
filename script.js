@@ -77,7 +77,7 @@ document.getElementById('scoreiv').innerHTML = resultiv
 
 document.getElementById('title4th').innerHTML="Assignment";
 document.getElementById('fourthday').innerHTML="<h2>My Fourthday Javascript Experience</h2>";
-document.getElementById('experience4').innerHTML="My Fourth Day experience in Javascript Was Awesome though I guess Its Becoming more deeper and more Different.Third day lesson was on Javascript Operators..Javascript is fun to learn according to my research and I believe as times goes on and with a lot of practices i would Understand More better...";
+document.getElementById('experience4').innerHTML="My Fourth Day experience in Javascript Was Awesome too .Fourth day lesson was on Comparison,Logical & Ternary Operators..Javascript is fun to learn according to my research and I believe as times goes on and with a lot of practices i would Understand More better...";
 document.getElementById('ternary1').innerHTML="<h2>Ternary Operators</h2>";
 document.getElementById('subtopic1').innerHTML="<h4>Link generator Operators:</h4>";
 document.getElementById('link1').innerHTML="<h5>First Link: </h5>";

@@ -92,37 +92,26 @@ document.getElementById('fifthday').innerHTML="<h2>My Fifthday Javascript Experi
 document.getElementById('experience5').innerHTML="My Fifth Day experience in Javascript Was complicated .My fifth day lesson was on Conditional Statement Operators..Javascript is fun to learn according to my research and I believe as times goes on and with a lot of practices i would Understand More better...";
 document.getElementById('con').innerHTML="<h2>Conditional Statement Operators</h2>"
 document.getElementById('subtopic5').innerHTML ="<h3>Students Examination Grades</h3>"
-// let score = 74;
-// if(score >= 70 && score <= 100){
-//     console.log('A')
-// }else if(score >= 60 && score <= 69 ){
-//   console.log('B');
-// }else if(score >= 50 && score <= 59){
-//   console.log('C');
-// }
+
 
 let score = 84;
 if(score >= 80 && score <= 100){
-// document.getElementById('result').innerHTML
- result = ('A')
-}
+ result = ('A1')
 
-else if (score >= 70 && score <= 79){
-    result = ('B')
-}
+}else if (score >= 70 && score <= 79){
+    result = ('B2')
 
-else if (score >= 60 && score <= 69){
-    result = ('C')
-}
+}else if (score >= 60 && score <= 69){
+    result = ('C6')
 
-else if (score >= 50 && score <=59){
-    result = ('D')
-}
+}else if (score >= 50 && score <=59){
+    result = ('D7')
 
-else if (score >= 40 && score <=49){
-    result = ('E')
+}else if (score >= 40 && score <=49){
+    result = ('E8')
+
 }else {
-    result = ('F')
+    result = ('F9')
 }
 
 document.getElementById('scores').innerHTML = result

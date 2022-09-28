@@ -56,22 +56,22 @@ document.getElementById('Thirdlink').innerHTML = link3
 // logical operator 
 let scorei = 100
 let result = (scorei >= 95) ? "You scored A1" : "You failed";
-document.getElementById('scorei').innerHTML = result
+document.getElementById('scorei').innerHTML ="<code> Let scorei = 100</code> <br> <code>let result = (scorei >= 95) ? (You scored A1 : You failed)</code> <br><br>Result = " + result;
 
 
 let scoreii = 80;
 let resultii = (scoreii >= 70) ? "You Scored B2": "You failed";
-document.getElementById('scoreii').innerHTML = resultii
+document.getElementById('scoreii').innerHTML = "<code> Let scoreii = 80</code> <br> <code>let resultii = (scorei >= 70) ? (You scored B2 : You failed)</code> <br><br>Result = " + resultii;
 
 
 let scoreiii = 60;
 let resultiii = (scoreiii >= 55) ? "You Scored C5": "You failed";
-document.getElementById('scoreiii').innerHTML = resultiii
+document.getElementById('scoreiii').innerHTML = "<code> Let scoreiii = 60</code> <br> <code>let resultiii = (scorei >= 55) ? (You scored C5 : You failed)</code> <br><br>Result = " + resultiii;
 
 
 let scoreiv = 40;
 let resultiv = (scoreiv >= 25) ? "You Scored D7": "You failed";
-document.getElementById('scoreiv').innerHTML = resultiv
+document.getElementById('scoreiv').innerHTML = "<code> Let scoreiv = 40</code> <br> <code>let resultiv = (scorei >= 25) ? (You scored D7 : You failed)</code> <br><br>Result = " + resultiv;
 
 
 
@@ -92,11 +92,12 @@ document.getElementById('fifthday').innerHTML="<h2>My Fifthday Javascript Experi
 document.getElementById('experience5').innerHTML="My Fifth Day experience in Javascript Was complicated .My fifth day lesson was on Conditional Statement Operators..Javascript is fun to learn according to my research and I believe as times goes on and with a lot of practices i would Understand More better...";
 document.getElementById('con').innerHTML="<h2>Conditional Statement Operators</h2>"
 document.getElementById('subtopic5').innerHTML ="<h3>Students Examination Grades</h3>"
+document.getElementById('finalscore').innerHTML ="<h3>Final Score</h3>"
 
 
 let score = 84;
 if(score >= 80 && score <= 100){
- result = ('A1')
+  result = ('A1')
 
 }else if (score >= 70 && score <= 79){
     result = ('B2')
@@ -114,5 +115,11 @@ if(score >= 80 && score <= 100){
     result = ('F9')
 }
 
-document.getElementById('scores').innerHTML = result
+document.getElementById('scores1').innerHTML = "<code> let score = 84</code> <br> <code>if(score >= 80 && score <= 100)</code> <br><code>result = A1";
+document.getElementById('scores2').innerHTML = " <code>else if (score >= 70 && score <= 79)</code> <br> <code>result = B2 </code>";
+document.getElementById('scores3').innerHTML = " <code>else if (score >= 60 && score <= 69)</code> <br> <code>result = C6 </code>" ;
+document.getElementById('scores4').innerHTML = "  <code>else if (score >= 50 && score <=59)</code> <br> <code>result = D7 </code>" ;
+document.getElementById('scores5').innerHTML = "  <code>else if (score >= 40 && score <=49)</code> <br> <code>result = E8 </code>";
+document.getElementById('scores6').innerHTML = " <code>else</code> <br> <code>result = F9 </code>";
+document.getElementById('scores').innerHTML ="<code>result = </code>" + result;
 console.log(result)
